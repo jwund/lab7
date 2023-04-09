@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <style>
+            #para {
+                border-style: solid;
+                border-width: 0px;
+            }
+        </style>
+        <!-- border wouldn't show up if i didn't define this style thing first -->
+        <h1>EECS 348 Lab 7 Jackson Wunderlich P2</h1>
+        <div id="para">Sentence to be changed</div>
+        <br>
+        <script type="text/javascript", src="scripts.js"></script>
+        Border Red (0-255):
+        <input type="text", id="R_border", value>
+        <br>
+        Border Green (0-255):
+        <input type="text", id="G_border", value>
+        <br>
+        Border Blue (0-255):
+        <input type="text", id="B_border", value>
+        <br>
+        Border Width:
+        <input type="text", id="W_border", value>
+        <br>
+        Background Red (0-255):
+        <input type="text", id="R_background", value>
+        <br>
+        Background Green (0-255):
+        <input type="text", id="G_background", value>
+        <br>
+        Background Blue (0-255):
+        <input type="text", id="B_background", value>
+        <br>
+        <button onclick="change_colors()">Make Changes</button>
+    </body>
+</html>
